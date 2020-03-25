@@ -6,14 +6,14 @@ const chiper = (line, action, shift) => {
     return line.replace(/[a-z]/gi, match => {
       if (/[a-z]/.test(match)) {
         const oldIndex = alphaLower.indexOf(match);
-        let newIndex = oldIndex - +shift;
+        let newIndex = oldIndex - shift;
         if (newIndex < 0) {
           newIndex = 26 + (newIndex % 26);
         }
         return alphaLower[newIndex];
       }
       const oldIndex = alphaUpper.indexOf(match);
-      let newIndex = oldIndex - +shift;
+      let newIndex = oldIndex - shift;
       if (newIndex < 0) {
         newIndex = 26 + (newIndex % 26);
       }
@@ -23,11 +23,11 @@ const chiper = (line, action, shift) => {
   return line.replace(/\w/gi, match => {
     if (/[a-z]/.test(match)) {
       const oldIndex = alphaLower.indexOf(match);
-      const newIndex = (oldIndex + +shift) % 26;
+      const newIndex = (oldIndex + shift) % 26;
       return alphaLower[newIndex];
     }
     const oldIndex = alphaUpper.indexOf(match);
-    const newIndex = (oldIndex + +shift) % 26;
+    const newIndex = (oldIndex + shift) % 26;
     return alphaUpper[newIndex];
   });
 };
