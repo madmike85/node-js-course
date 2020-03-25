@@ -2,18 +2,30 @@
 
 ## How to run
 
-`cd task1`
-`$ node ceasar-cipher-cli.js` with options
+```bash
+cd task1
+```
 
--s, --shift: a shift value (required)
--a, --action: an action encode/decode (required)
--i, --input: an input file (optional)
--o, --output: an output file (optional)
+```bash
+$ node ceasar-cipher-cli.js
+```
+
+with options
+
+1. **-s, --shift**: a shift value (required)
+2. **-a, --action**: an action encode/decode (required)
+3. **-i, --input**: an input file (optional)
+4. **-o, --output**: an output file (optional)
 
 ## Example
 
-`$ node ceasar-cipher-cli.js --action decode --shift 2 --input './input.txt' --output 'output.txt'`
-`$ node ceasar-cipher-cli.js --action encode --shift 2`
+```bash
+$ node ceasar-cipher-cli.js --action decode --shift 2 --input './input.txt' --output 'output.txt'
+```
+
+```bash
+$ node ceasar-cipher-cli.js --action encode --shift 2
+```
 
 # RS School REST service
 
