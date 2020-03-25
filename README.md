@@ -1,3 +1,20 @@
+# Ceaser Cipher CLI tool
+
+## How to run
+
+`cd task1`
+`$ node ceasar-cipher-cli.js` with options
+
+-s, --shift: a shift value (required)
+-a, --action: an action encode/decode (required)
+-i, --input: an input file (optional)
+-o, --output: an output file (optional)
+
+## Example
+
+`$ node ceasar-cipher-cli.js --action decode --shift 2 --input './input.txt' --output 'output.txt'`
+`$ node ceasar-cipher-cli.js --action encode --shift 2`
+
 # RS School REST service
 
 ## Prerequisites
