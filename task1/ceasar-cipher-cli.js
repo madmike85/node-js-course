@@ -17,7 +17,7 @@ if (program.input) {
 }
 
 if (program.output) {
-  outputStream = fs.createWriteStream(program.output);
+  outputStream = fs.createWriteStream(program.output, { flags: 'a' });
 } else {
   outputStream = process.stdout;
 }
