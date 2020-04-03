@@ -115,7 +115,7 @@ describe('Boards suite', () => {
         .then(res => jestExpect(res.body).toMatchObject(updatedBoard));
 
       // Teardown
-      await request.delete(routes.boards.delete(boardId));
+      await request.delete(routes.boards.deleteById(boardId));
     });
   });
 
@@ -134,7 +134,7 @@ describe('Boards suite', () => {
 
       // Test
       await request
-        .delete(routes.boards.delete(boardId))
+        .delete(routes.boards.deleteById(boardId))
         .then(res => expect(res.status).oneOf([200, 204]));
 
       await request.get(routes.boards.getById(boardId)).expect(404);
@@ -180,7 +180,7 @@ describe('Boards suite', () => {
       );
       // Test:
       await request
-        .delete(routes.boards.delete(boardId))
+        .delete(routes.boards.deleteById(boardId))
         .then(response => expect(response.status).oneOf([200, 204]));
 
       await Promise.all(

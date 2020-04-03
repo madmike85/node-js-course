@@ -4,21 +4,21 @@ const getAll = async () => {
   return boards;
 };
 
-const getBoard = async id => {
+const getById = async id => {
   return boards.find(board => board.id === id);
 };
 
-const addBoard = async board => {
+const create = async board => {
   boards.push(board);
 };
 
-const deleteBoard = async id => {
+const deleteById = async id => {
   boards = boards.filter(board => board.id !== id);
 };
 
-const updateBoard = async (id, data) => {
+const update = async (id, data) => {
   const index = boards.findIndex(board => board.id === id);
   boards[index] = { ...boards[index], ...data };
 };
 
-module.exports = { getAll, getBoard, addBoard, deleteBoard, updateBoard };
+module.exports = { getAll, getById, create, deleteById, update };

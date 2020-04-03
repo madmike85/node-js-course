@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const boardsService = require('./board.service');
+const tasksService = require('../tasks/task.service');
 const Board = require('./board.model');
 
 router
@@ -10,22 +11,23 @@ router
   })
   .post(async (req, res) => {
     const board = new Board(req.body);
-    await boardsService.addBoard(board);
-    res.json({ message: 'Board has been added' });
+    await boardsService.create(board);
+    res.json({ message: 'Board has been created' });
   });
 
 router
   .route('/:id')
   .get(async (req, res) => {
-    const board = await boardsService.getBoard(req.params.id);
+    const board = await boardsService.getById(req.params.id);
     res.json(board);
   })
   .delete(async (req, res) => {
-    await boardsService.deleteBoard(req.params.id);
+    await tasksService.deleteByBoardId(req.params.id);
+    await boardsService.deleteById(req.params.id);
     res.json({ message: 'Board has been deleted' });
   })
   .put(async (req, res) => {
-    await boardsService.updateBoard(req.params.id, req.body);
+    await boardsService.update(req.params.id, req.body);
     res.json({ message: 'User has been updated' });
   });
 

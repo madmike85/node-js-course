@@ -1,9 +1,9 @@
 const usersRepo = require('./user.memory.repository');
 
 const getAll = () => usersRepo.getAll();
-const addUser = user => usersRepo.addUser(user);
-const getUser = id => usersRepo.getUser(id);
-const deleteUser = id => usersRepo.deleteUser(id);
-const updateUser = (id, data) => usersRepo.updateUser(id, data);
+const create = user => usersRepo.create(user);
+const getById = id => usersRepo.getById(id);
+const deleteById = id => usersRepo.deleteById(id);
+const update = (id, data) => usersRepo.update(id, data);
 
-module.exports = { getAll, addUser, getUser, deleteUser, updateUser };
+module.exports = { getAll, create, getById, deleteById, update };
