@@ -12,7 +12,7 @@ router
   .post(async (req, res) => {
     const user = new User(req.body);
     await usersService.create(user);
-    res.json({ message: 'User has been created' });
+    res.json(User.toResponse(user));
   });
 
 router

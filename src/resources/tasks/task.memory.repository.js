@@ -1,4 +1,23 @@
-let tasks = [];
+let tasks = [
+  {
+    id: '1',
+    title: 'Title',
+    oreder: 12,
+    description: 'Test task',
+    userId: '1',
+    boardId: '1',
+    columnId: '1'
+  },
+  {
+    id: '2',
+    title: 'Title 2',
+    oreder: 122,
+    description: 'Test task 2',
+    userId: '2',
+    boardId: '2',
+    columnId: '1'
+  }
+];
 
 const getAll = async () => {
   return tasks;

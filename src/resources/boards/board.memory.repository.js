@@ -1,4 +1,10 @@
-let boards = [];
+let boards = [
+  {
+    id: '1',
+    title: 'Test',
+    columns: []
+  }
+];
 
 const getAll = async () => {
   return boards;

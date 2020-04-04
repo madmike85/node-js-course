@@ -11,14 +11,18 @@ router
   .post(async (req, res) => {
     const task = new Task({ ...req.body, boardId: req.params.boardId });
     await tasksService.create(task);
-    res.json({ message: 'Task has been created' });
+    res.json(task);
   });
 
 router
   .route('/:id')
   .get(async (req, res) => {
     const task = await tasksService.getById(req.params.id);
-    res.json(task);
+    if (!task) {
+      res.status(404).json({ message: 'Task not found' });
+    } else {
+      res.json(task);
+    }
   })
   .delete(async (req, res) => {
     await tasksService.deleteById(req.params.id);

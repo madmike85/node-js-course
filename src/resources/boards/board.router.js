@@ -12,14 +12,18 @@ router
   .post(async (req, res) => {
     const board = new Board(req.body);
     await boardsService.create(board);
-    res.json({ message: 'Board has been created' });
+    res.json(board);
   });
 
 router
   .route('/:id')
   .get(async (req, res) => {
     const board = await boardsService.getById(req.params.id);
-    res.json(board);
+    if (!board) {
+      res.status(404).json({ message: 'Board not found' });
+    } else {
+      res.json(board);
+    }
   })
   .delete(async (req, res) => {
     await tasksService.deleteByBoardId(req.params.id);

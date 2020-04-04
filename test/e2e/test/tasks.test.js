@@ -47,7 +47,7 @@ describe('Tasks suite', () => {
 
   afterAll(async () => {
     await request
-      .delete(routes.boards.deleteById(testBoardId))
+      .delete(routes.boards.delete(testBoardId))
       .then(res => expect(res.status).oneOf([200, 204]));
   });
 
@@ -149,7 +149,7 @@ describe('Tasks suite', () => {
         .get(routes.tasks.getById(testBoardId, testTaskId))
         .expect(200);
       await request
-        .delete(routes.tasks.deleteById(testBoardId, testTaskId))
+        .delete(routes.tasks.delete(testBoardId, testTaskId))
         .then(res => expect(res.status).oneOf([200, 204]));
 
       await request.get(routes.tasks.getById(testTaskId)).expect(404);

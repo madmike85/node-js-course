@@ -11,6 +11,11 @@ const TEST_USER_DATA = {
   password: 'T35t_P@55w0rd'
 };
 
+const TEST_BOARD_DATA = {
+  title: 'TEST_BOARD',
+  columns: []
+};
+
 describe('Users suite', () => {
   let request = unauthorizedRequest;
 
@@ -109,7 +114,7 @@ describe('Users suite', () => {
         .then(res => jestExpect(res.body).toMatchObject(expectedUser));
 
       // Teardown
-      await request.delete(routes.users.deleteById(userId));
+      await request.delete(routes.users.delete(userId));
     });
   });
 
@@ -122,9 +127,7 @@ describe('Users suite', () => {
       const userId = userResponse.body.id;
 
       // Test:
-      const deleteResponse = await request.delete(
-        routes.users.deleteById(userId)
-      );
+      const deleteResponse = await request.delete(routes.users.delete(userId));
       expect(deleteResponse.status).oneOf([200, 204]);
     });
 
@@ -140,6 +143,7 @@ describe('Users suite', () => {
 
       const boardResponse = await request
         .post(routes.boards.create)
+        .send(TEST_BOARD_DATA)
         .set('Accept', 'application/json')
         .expect(200)
         .expect('Content-Type', /json/);
@@ -164,9 +168,7 @@ describe('Users suite', () => {
       const userTaskIds = userTaskResponses.map(res => res.body.id);
 
       // Test:
-      const deleteResponse = await request.delete(
-        routes.users.deleteById(userId)
-      );
+      const deleteResponse = await request.delete(routes.users.delete(userId));
       expect(deleteResponse.status).oneOf([200, 204]);
 
       for (const taskId of userTaskIds) {
@@ -189,7 +191,7 @@ describe('Users suite', () => {
       );
 
       await request
-        .delete(routes.boards.deleteById(boardId))
+        .delete(routes.boards.delete(boardId))
         .then(res => expect(res.status).oneOf([200, 204]));
     });
   });

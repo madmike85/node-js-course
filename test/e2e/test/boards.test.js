@@ -83,39 +83,38 @@ describe('Boards suite', () => {
   describe('PUT', () => {
     it('should update board successfully', async () => {
       // Setup
-      let boardId;
+      let boardToUpdate;
 
       await request
         .post(routes.boards.create)
         .set('Accept', 'application/json')
         .send(TEST_BOARD_DATA)
         .then(res => {
-          boardId = res.body.id;
+          boardToUpdate = res.body;
         });
 
       const updatedBoard = {
-        ...TEST_BOARD_DATA,
-        title: 'Autotest updated board',
-        id: boardId
+        ...boardToUpdate,
+        title: 'Autotest updated board'
       };
 
       // Test
       await request
-        .put(routes.boards.update(boardId))
+        .put(routes.boards.update(boardToUpdate.id))
         .set('Accept', 'application/json')
         .send(updatedBoard)
         .expect(200)
         .expect('Content-Type', /json/);
 
       await request
-        .get(routes.boards.getById(boardId))
+        .get(routes.boards.getById(boardToUpdate.id))
         .set('Accept', 'application/json')
         .expect(200)
         .expect('Content-Type', /json/)
         .then(res => jestExpect(res.body).toMatchObject(updatedBoard));
 
       // Teardown
-      await request.delete(routes.boards.deleteById(boardId));
+      await request.delete(routes.boards.delete(boardToUpdate.id));
     });
   });
 
@@ -134,7 +133,7 @@ describe('Boards suite', () => {
 
       // Test
       await request
-        .delete(routes.boards.deleteById(boardId))
+        .delete(routes.boards.delete(boardId))
         .then(res => expect(res.status).oneOf([200, 204]));
 
       await request.get(routes.boards.getById(boardId)).expect(404);
@@ -180,7 +179,7 @@ describe('Boards suite', () => {
       );
       // Test:
       await request
-        .delete(routes.boards.deleteById(boardId))
+        .delete(routes.boards.delete(boardId))
         .then(response => expect(response.status).oneOf([200, 204]));
 
       await Promise.all(
