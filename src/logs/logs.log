@@ -1,0 +1,12 @@
+
+[info] [2020-04-10T07:26:51.846Z] -- [url:] /use, [params:] none, [body:] {}
+[error] [2020-04-10T07:26:51.849Z] -- [status:] 404, [message:] not found
+[error] [2020-04-10T07:26:51.849Z] -- [status:] 404, [message:] not found
+[info] [2020-04-10T07:27:32.791Z] -- [url:] /use, [params:] none, [body:] {}
+[error] [2020-04-10T07:27:32.794Z] -- [status:] 404, [message:] not found
+[error] [2020-04-10T07:27:32.794Z] -- [status:] 404, [message:] not found
+[info] [2020-04-10T07:28:13.421Z] -- [url:] /use, [params:] none, [body:] {}
+[info] [2020-04-10T07:31:51.671Z] -- [url:] /use, [params:] none, [body:] {}
+[error] [2020-04-10T07:31:51.674Z] -- [status:] 404, [message:] not found
+[info] [2020-04-10T09:57:20.691Z] -- [url:] /users, [params:] none, [body:] {}
+[error] [2020-04-10T09:57:20.694Z] -- [status:] 500, [message:] internal server error
