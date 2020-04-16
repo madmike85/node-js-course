@@ -30,5 +30,6 @@ const handleErrors = (error, req, res, next) => {
 module.exports = {
   catchAsyncError,
   error404,
-  handleErrors
+  handleErrors,
+  createError
 };
