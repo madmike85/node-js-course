@@ -27,12 +27,4 @@ boardSchema.statics.toResponse = user => {
 
 const Board = mongoose.model('Board', boardSchema);
 
-// class Board {
-//   constructor({ id = uuid(), title = 'Title', columns = [] } = {}) {
-//     this.id = id;
-//     this.title = title;
-//     this.columns = columns;
-//   }
-// }
-
 module.exports = Board;
