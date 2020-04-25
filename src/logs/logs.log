@@ -1746,3 +1746,353 @@
 [info] [2020-04-16T20:12:02.037Z] -- [url:] /boards/8d7974c1-7383-41d8-b477-70844712bb4f/tasks/a66cec65-893e-4d25-96d8-49ec1185e03c, [params:] none, [body:] {}
 [info] [2020-04-16T20:12:02.041Z] -- [url:] /boards/8d7974c1-7383-41d8-b477-70844712bb4f/tasks/18d758b3-b01e-4ddf-af78-06c0695028b1, [params:] none, [body:] {}
 [info] [2020-04-16T20:12:02.105Z] -- [url:] /boards/8d7974c1-7383-41d8-b477-70844712bb4f, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:38.787Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-19T21:22:38.805Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-19T21:22:38.808Z] -- [url:] /users, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.151Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97/tasks, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[info] [2020-04-19T21:22:39.156Z] -- [url:] /boards, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.160Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-19T21:22:39.211Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97/tasks, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.218Z] -- [url:] /users/2439daf8-d987-4434-a4b4-81bcba122926, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.222Z] -- [url:] /boards, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.266Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97/tasks, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.275Z] -- [url:] /users/2439daf8-d987-4434-a4b4-81bcba122926, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.281Z] -- [url:] /boards/8d2e1fe5-c928-475c-9bb3-4527fe32fcea, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.313Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97/tasks/1c79c3b7-b3e5-4b05-b3a7-9e326ac95e40, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.334Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-19T21:22:39.364Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97/tasks, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[info] [2020-04-19T21:22:39.391Z] -- [url:] /boards/5fb54d8a-8ff1-4161-954c-48a789a5a3cc, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.405Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-19T21:22:39.416Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97/tasks/59dc2dd7-da60-4f61-b8d3-d3e84fa94766, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.464Z] -- [url:] /users/010c3e1b-2f9b-407f-87ed-25147eb62a64, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.466Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97/tasks, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[info] [2020-04-19T21:22:39.493Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-19T21:22:39.515Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97/tasks/75c8faed-d98d-4e20-bfdf-d05ea600975e, [params:] none, [body:] {"id":"75c8faed-d98d-4e20-bfdf-d05ea600975e","title":"autotest updated task","order":0,"description":"lorem ipsum","userid":null,"boardid":"671809ed-2e45-490f-a7fd-79ebd0617d97","columnid":null}
+[info] [2020-04-19T21:22:39.547Z] -- [url:] /boards/01023c4e-6570-4838-8519-26aeb689f126, [params:] none, [body:] {"id":"01023c4e-6570-4838-8519-26aeb689f126","title":"autotest updated board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-19T21:22:39.569Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97/tasks/75c8faed-d98d-4e20-bfdf-d05ea600975e, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.589Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-19T21:22:39.602Z] -- [url:] /boards/01023c4e-6570-4838-8519-26aeb689f126, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.617Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97/tasks/1c79c3b7-b3e5-4b05-b3a7-9e326ac95e40, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.643Z] -- [url:] /users/268f86ee-cf46-43ba-8614-63d102c54bc8, [params:] none, [body:] {"name":"autotest updated test_user","login":"test_user","password":"t35t_p@55w0rd","id":"268f86ee-cf46-43ba-8614-63d102c54bc8"}
+[info] [2020-04-19T21:22:39.653Z] -- [url:] /boards/01023c4e-6570-4838-8519-26aeb689f126, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.663Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97/tasks/1c79c3b7-b3e5-4b05-b3a7-9e326ac95e40, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.696Z] -- [url:] /users/268f86ee-cf46-43ba-8614-63d102c54bc8, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.711Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97/tasks/1c79c3b7-b3e5-4b05-b3a7-9e326ac95e40, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.747Z] -- [url:] /users/268f86ee-cf46-43ba-8614-63d102c54bc8, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.754Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[error] [2020-04-19T21:22:39.756Z] -- [status:] 404, [message:] task not found
+[info] [2020-04-19T21:22:39.759Z] -- [url:] /boards/671809ed-2e45-490f-a7fd-79ebd0617d97, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.809Z] -- [url:] /boards/53cd671c-ce00-4096-b5c2-5f1d66a84a27, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.865Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-19T21:22:39.908Z] -- [url:] /boards/53cd671c-ce00-4096-b5c2-5f1d66a84a27, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:39.920Z] -- [url:] /users/091634c2-a188-40c3-815e-98f82d51c7df, [params:] none, [body:] {}
+[error] [2020-04-19T21:22:39.957Z] -- [status:] 404, [message:] board not found
+[info] [2020-04-19T21:22:39.960Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-19T21:22:40.017Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks, [params:] none, [body:] {"title":"task #1","order":1,"description":"lorem ipsum","boardid":"603ed0c1-4347-4aad-bf8d-518658da3903","userid":null,"columnid":null}
+[info] [2020-04-19T21:22:40.020Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks, [params:] none, [body:] {"title":"task #2","order":2,"description":"lorem ipsum","boardid":"603ed0c1-4347-4aad-bf8d-518658da3903","userid":null,"columnid":null}
+[info] [2020-04-19T21:22:40.023Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks, [params:] none, [body:] {"title":"task #3","order":3,"description":"lorem ipsum","boardid":"603ed0c1-4347-4aad-bf8d-518658da3903","userid":null,"columnid":null}
+[info] [2020-04-19T21:22:40.025Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks, [params:] none, [body:] {"title":"task #4","order":4,"description":"lorem ipsum","boardid":"603ed0c1-4347-4aad-bf8d-518658da3903","userid":null,"columnid":null}
+[info] [2020-04-19T21:22:40.027Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks, [params:] none, [body:] {"title":"task #5","order":5,"description":"lorem ipsum","boardid":"603ed0c1-4347-4aad-bf8d-518658da3903","userid":null,"columnid":null}
+[info] [2020-04-19T21:22:40.033Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-19T21:22:40.129Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks/89dfd4d5-a465-4d16-8f87-5f4e8152f8ca, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.130Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks/1619005d-b7ed-4f71-a972-b86db0deb1a7, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.131Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks/2a75e37d-47f0-4166-a523-ee215744b3d1, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.132Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks/b07bda1f-a093-4307-8bb8-c8fe2fd8aa34, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.133Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks/49894204-f343-4e78-bd6c-b850770e0be7, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.136Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-19T21:22:40.227Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.236Z] -- [url:] /boards/b7acb6e1-c4cd-458c-b16e-048c62e822f1/tasks, [params:] none, [body:] {"title":"task #1","order":1,"description":"lorem ipsum","userid":"46aa343f-bb37-4851-a3a9-b8460d2523a6","boardid":"b7acb6e1-c4cd-458c-b16e-048c62e822f1"}
+[info] [2020-04-19T21:22:40.239Z] -- [url:] /boards/b7acb6e1-c4cd-458c-b16e-048c62e822f1/tasks, [params:] none, [body:] {"title":"task #2","order":2,"description":"lorem ipsum","userid":"46aa343f-bb37-4851-a3a9-b8460d2523a6","boardid":"b7acb6e1-c4cd-458c-b16e-048c62e822f1"}
+[info] [2020-04-19T21:22:40.294Z] -- [url:] /users/46aa343f-bb37-4851-a3a9-b8460d2523a6, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.327Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks/89dfd4d5-a465-4d16-8f87-5f4e8152f8ca, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.328Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks/1619005d-b7ed-4f71-a972-b86db0deb1a7, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.330Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks/2a75e37d-47f0-4166-a523-ee215744b3d1, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.331Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks/b07bda1f-a093-4307-8bb8-c8fe2fd8aa34, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.332Z] -- [url:] /boards/603ed0c1-4347-4aad-bf8d-518658da3903/tasks/49894204-f343-4e78-bd6c-b850770e0be7, [params:] none, [body:] {}
+[error] [2020-04-19T21:22:40.373Z] -- [status:] 404, [message:] task not found
+[error] [2020-04-19T21:22:40.374Z] -- [status:] 404, [message:] task not found
+[error] [2020-04-19T21:22:40.376Z] -- [status:] 404, [message:] task not found
+[error] [2020-04-19T21:22:40.377Z] -- [status:] 404, [message:] task not found
+[error] [2020-04-19T21:22:40.412Z] -- [status:] 404, [message:] task not found
+[info] [2020-04-19T21:22:40.414Z] -- [url:] /boards/89ef7fb6-8012-4d15-8cba-7b13ec783324, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.425Z] -- [url:] /boards/b7acb6e1-c4cd-458c-b16e-048c62e822f1/tasks/7cde3518-4594-4605-9993-51c4d0f137ca, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.471Z] -- [url:] /boards/b7acb6e1-c4cd-458c-b16e-048c62e822f1/tasks/4a63b8e3-8a83-4b96-bedc-d9c1667b5160, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.523Z] -- [url:] /boards/b7acb6e1-c4cd-458c-b16e-048c62e822f1/tasks/7cde3518-4594-4605-9993-51c4d0f137ca, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.524Z] -- [url:] /boards/b7acb6e1-c4cd-458c-b16e-048c62e822f1/tasks/4a63b8e3-8a83-4b96-bedc-d9c1667b5160, [params:] none, [body:] {}
+[info] [2020-04-19T21:22:40.576Z] -- [url:] /boards/b7acb6e1-c4cd-458c-b16e-048c62e822f1, [params:] none, [body:] {}
+[info] [2020-04-21T08:38:23.967Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 2","login":"newuser2","password":"1234qwer123"}
+[error] [2020-04-21T08:38:23.995Z] -- [status:] 500, [message:] cannot read property 'then' of undefined
+[error] [2020-04-21T08:38:24.000Z] -- [message:] unhandled rejection detected: user validation failed: password: cast to string failed for value "promise { <pending> }" at path "password"
+[info] [2020-04-21T08:41:27.778Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 2","login":"newuser2","password":"1234qwer123"}
+[error] [2020-04-21T08:41:27.795Z] -- [status:] 500, [message:] cannot read property 'then' of undefined
+[error] [2020-04-21T08:41:27.801Z] -- [message:] unhandled rejection detected: user validation failed: password: cast to string failed for value "promise { <pending> }" at path "password"
+[info] [2020-04-21T08:42:41.586Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 2","login":"newuser2","password":"1234qwer123"}
+[error] [2020-04-21T08:42:41.712Z] -- [status:] 500, [message:] cannot destructure property 'id' of 'user' as it is undefined.
+[info] [2020-04-21T08:45:59.848Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 3","login":"newuser2","password":"1234qwer123"}
+[error] [2020-04-21T08:45:59.978Z] -- [status:] 500, [message:] cannot destructure property '_id' of 'user' as it is undefined.
+[info] [2020-04-21T08:49:34.469Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 3","login":"newuser2","password":"1234qwer123"}
+[error] [2020-04-21T08:49:34.484Z] -- [status:] 500, [message:] cannot read property 'then' of undefined
+[error] [2020-04-21T08:49:34.488Z] -- [message:] unhandled rejection detected: user validation failed: password: path `password` is required.
+[info] [2020-04-21T08:50:45.072Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 3","login":"newuser2","password":"1234qwer123"}
+[error] [2020-04-21T08:50:45.198Z] -- [status:] 500, [message:] cannot destructure property 'id' of 'user' as it is undefined.
+[info] [2020-04-21T08:51:31.153Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 3","login":"newuser2","password":"1234qwer123"}
+[error] [2020-04-21T08:51:31.279Z] -- [status:] 500, [message:] cannot destructure property 'id' of 'user' as it is undefined.
+[info] [2020-04-21T08:51:50.530Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 3","login":"newuser2","password":"1234qwer123"}
+[error] [2020-04-21T08:51:50.657Z] -- [status:] 500, [message:] cannot destructure property 'id' of 'user' as it is undefined.
+[info] [2020-04-21T08:52:44.207Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 3","login":"newuser2","password":"1234qwer123"}
+[error] [2020-04-21T08:52:44.340Z] -- [message:] unhandled rejection detected: cannot destructure property 'id' of 'user' as it is undefined.
+[info] [2020-04-21T08:54:11.781Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 3","login":"newuser2","password":"1234qwer123"}
+[error] [2020-04-21T08:54:11.909Z] -- [status:] 500, [message:] cannot destructure property 'id' of 'user' as it is undefined.
+[info] [2020-04-21T08:54:50.286Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 3","login":"newuser2","password":"1234qwer123"}
+[error] [2020-04-21T08:54:50.412Z] -- [status:] 500, [message:] cannot destructure property 'id' of 'user' as it is undefined.
+[info] [2020-04-21T09:02:47.713Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 3","login":"newuser2","password":"1234qwer123"}
+[info] [2020-04-21T09:05:50.187Z] -- [url:] /users, [params:] none, [body:] {"name":"new user 3","login":"newuser2","password":"1234qwer123"}
+[info] [2020-04-21T09:06:29.490Z] -- [url:] /users, [params:] none, [body:] {}
+[info] [2020-04-21T09:07:42.828Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoytwtj."}
+[error] [2020-04-21T09:07:42.829Z] -- [status:] 404, [message:] not found
+[info] [2020-04-21T09:09:41.058Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoytwtj."}
+[error] [2020-04-21T09:09:41.059Z] -- [status:] 404, [message:] not found
+[info] [2020-04-21T09:10:05.145Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoytwtj."}
+[error] [2020-04-21T09:10:05.148Z] -- [status:] 404, [message:] not found
+[info] [2020-04-21T09:10:46.333Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoytwtj."}
+[error] [2020-04-21T09:10:46.336Z] -- [status:] 404, [message:] not found
+[info] [2020-04-21T09:11:26.179Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoytwtj."}
+[error] [2020-04-21T09:11:26.181Z] -- [status:] 404, [message:] not found
+[info] [2020-04-21T09:14:11.979Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoytwtj."}
+[error] [2020-04-21T09:14:11.981Z] -- [status:] 404, [message:] not found
+[info] [2020-04-21T09:24:32.408Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoytwtj."}
+[error] [2020-04-21T09:24:32.410Z] -- [status:] 404, [message:] not found
+[info] [2020-04-21T09:26:05.701Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoytwtj."}
+[error] [2020-04-21T09:26:05.704Z] -- [status:] 404, [message:] not found
+[info] [2020-04-21T09:26:25.813Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoytwtj."}
+[info] [2020-04-21T09:36:42.662Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser222","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoytwtj."}
+[error] [2020-04-21T09:36:42.682Z] -- [status:] 403, [message:] user not found
+[info] [2020-04-21T09:36:51.236Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoytwtj."}
+[info] [2020-04-21T09:37:00.233Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoytwtj"}
+[info] [2020-04-21T09:37:15.990Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"$2a$10$bm8iwssqzuvqpbtp98ihp.vyblzt/uf7wpd/wwdgbwpgcqoyt"}
+[info] [2020-04-21T09:38:19.595Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"1234qwer123"}
+[info] [2020-04-21T09:38:24.648Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"1234qwer12"}
+[info] [2020-04-21T09:39:07.563Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"1234qwer12"}
+[info] [2020-04-21T09:39:27.362Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"1234qwer12"}
+[error] [2020-04-21T09:39:27.502Z] -- [status:] 403, [message:] incorrect password
+[info] [2020-04-21T09:39:37.104Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"1234qwer123"}
+[info] [2020-04-21T18:25:59.232Z] -- [url:] /users, [params:] none, [body:] {}
+[error] [2020-04-21T18:25:59.235Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T18:26:09.343Z] -- [url:] /login, [params:] none, [body:] {"login":"newuser2","password":"1234qwer123"}
+[info] [2020-04-21T18:26:59.988Z] -- [url:] /users, [params:] none, [body:] {}
+[info] [2020-04-21T18:27:07.856Z] -- [url:] /users, [params:] none, [body:] {}
+[info] [2020-04-21T19:12:17.102Z] -- [url:] /users, [params:] none, [body:] {"name":"admin","login":"admin","password":"admin"}
+[info] [2020-04-21T19:13:40.692Z] -- [url:] /boards/12345/tasks, [params:] none, [body:] {}
+[error] [2020-04-21T19:13:40.695Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:40.707Z] -- [url:] /boards/12345/tasks/12345, [params:] none, [body:] {}
+[error] [2020-04-21T19:13:40.707Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:40.723Z] -- [url:] /boards/12345/tasks, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[error] [2020-04-21T19:13:40.724Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:40.727Z] -- [url:] /boards/12345/tasks/12345, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[error] [2020-04-21T19:13:40.727Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:40.731Z] -- [url:] /boards/12345/tasks/12345, [params:] none, [body:] {}
+[error] [2020-04-21T19:13:40.731Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:41.327Z] -- [url:] /boards, [params:] none, [body:] {}
+[error] [2020-04-21T19:13:41.329Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:41.336Z] -- [url:] /boards/12345, [params:] none, [body:] {}
+[error] [2020-04-21T19:13:41.336Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:41.348Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[error] [2020-04-21T19:13:41.349Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:41.355Z] -- [url:] /boards/12345, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[error] [2020-04-21T19:13:41.355Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:41.356Z] -- [url:] /login, [params:] none, [body:] {"login":"admin","password":"admin"}
+[info] [2020-04-21T19:13:41.368Z] -- [url:] /boards/12345, [params:] none, [body:] {}
+[error] [2020-04-21T19:13:41.368Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:41.392Z] -- [url:] /login, [params:] none, [body:] {"login":"admin","password":"admin"}
+[info] [2020-04-21T19:13:41.760Z] -- [url:] /users, [params:] none, [body:] {}
+[error] [2020-04-21T19:13:41.760Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:41.763Z] -- [url:] /users/123, [params:] none, [body:] {}
+[error] [2020-04-21T19:13:41.764Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:41.767Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[error] [2020-04-21T19:13:41.767Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:41.770Z] -- [url:] /users/12345, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[error] [2020-04-21T19:13:41.770Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:41.773Z] -- [url:] /users/12345, [params:] none, [body:] {}
+[error] [2020-04-21T19:13:41.773Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:13:42.044Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:13:42.057Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:13:42.145Z] -- [url:] /boards, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:42.156Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308/tasks, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[info] [2020-04-21T19:13:42.229Z] -- [url:] /boards, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:42.244Z] -- [url:] /login, [params:] none, [body:] {"login":"admin","password":"admin"}
+[info] [2020-04-21T19:13:42.251Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308/tasks, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:42.302Z] -- [url:] /boards/8d2e1fe5-c928-475c-9bb3-4527fe32fcea, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:42.438Z] -- [url:] /users, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:42.440Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308/tasks, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:42.443Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:13:42.510Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-21T19:13:42.612Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308/tasks/e64038a1-4753-4167-808e-9678ea04aae6, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:42.614Z] -- [url:] /boards/7c0eb1f5-fcae-4d3d-a0cc-9421c3b09429, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:42.670Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308/tasks, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[info] [2020-04-21T19:13:42.681Z] -- [url:] /users/0a03d290-cb91-4d47-a006-ee3c88bcb9a2, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:42.744Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308/tasks/4b243604-1bfa-4293-b004-7657c7db6beb, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:42.754Z] -- [url:] /users/0a03d290-cb91-4d47-a006-ee3c88bcb9a2, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:42.773Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:13:42.801Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308/tasks, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[info] [2020-04-21T19:13:42.836Z] -- [url:] /boards/80bded09-fc42-4b65-a739-c125923ceaf1, [params:] none, [body:] {"id":"80bded09-fc42-4b65-a739-c125923ceaf1","title":"autotest updated board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:13:42.867Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308/tasks/bd1c4cde-d406-43e9-b7f6-64a388a895fe, [params:] none, [body:] {"id":"bd1c4cde-d406-43e9-b7f6-64a388a895fe","title":"autotest updated task","order":0,"description":"lorem ipsum","userid":null,"boardid":"a8493c19-dbd4-46c1-8a92-14fdf305f308","columnid":null}
+[info] [2020-04-21T19:13:42.900Z] -- [url:] /boards/80bded09-fc42-4b65-a739-c125923ceaf1, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:42.909Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-21T19:13:43.027Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308/tasks/bd1c4cde-d406-43e9-b7f6-64a388a895fe, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.028Z] -- [url:] /boards/80bded09-fc42-4b65-a739-c125923ceaf1, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.080Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308/tasks/e64038a1-4753-4167-808e-9678ea04aae6, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.087Z] -- [url:] /users/01578dbb-3880-4ae4-b0df-f684fdff9ae0, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.134Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:13:43.145Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308/tasks/e64038a1-4753-4167-808e-9678ea04aae6, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.189Z] -- [url:] /boards/0f2601c7-1fe2-444c-93c3-a00f85a30fae, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.200Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308/tasks/e64038a1-4753-4167-808e-9678ea04aae6, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.207Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[error] [2020-04-21T19:13:43.351Z] -- [status:] 404, [message:] task not found
+[info] [2020-04-21T19:13:43.354Z] -- [url:] /boards/a8493c19-dbd4-46c1-8a92-14fdf305f308, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.412Z] -- [url:] /users/647eb02f-2f4b-4b9d-8709-56f95e42bd67, [params:] none, [body:] {"name":"autotest updated test_user","login":"test_user","password":"t35t_p@55w0rd","id":"647eb02f-2f4b-4b9d-8709-56f95e42bd67"}
+[info] [2020-04-21T19:13:43.419Z] -- [url:] /boards/0f2601c7-1fe2-444c-93c3-a00f85a30fae, [params:] none, [body:] {}
+[error] [2020-04-21T19:13:43.504Z] -- [status:] 404, [message:] board not found
+[info] [2020-04-21T19:13:43.505Z] -- [url:] /users/647eb02f-2f4b-4b9d-8709-56f95e42bd67, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.507Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:13:43.587Z] -- [url:] /users/647eb02f-2f4b-4b9d-8709-56f95e42bd67, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.600Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks, [params:] none, [body:] {"title":"task #1","order":1,"description":"lorem ipsum","boardid":"a03228a9-36a1-4bbb-8f8b-408a8f437826","userid":null,"columnid":null}
+[info] [2020-04-21T19:13:43.606Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks, [params:] none, [body:] {"title":"task #2","order":2,"description":"lorem ipsum","boardid":"a03228a9-36a1-4bbb-8f8b-408a8f437826","userid":null,"columnid":null}
+[info] [2020-04-21T19:13:43.611Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks, [params:] none, [body:] {"title":"task #3","order":3,"description":"lorem ipsum","boardid":"a03228a9-36a1-4bbb-8f8b-408a8f437826","userid":null,"columnid":null}
+[info] [2020-04-21T19:13:43.615Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks, [params:] none, [body:] {"title":"task #4","order":4,"description":"lorem ipsum","boardid":"a03228a9-36a1-4bbb-8f8b-408a8f437826","userid":null,"columnid":null}
+[info] [2020-04-21T19:13:43.619Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks, [params:] none, [body:] {"title":"task #5","order":5,"description":"lorem ipsum","boardid":"a03228a9-36a1-4bbb-8f8b-408a8f437826","userid":null,"columnid":null}
+[info] [2020-04-21T19:13:43.797Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-21T19:13:43.900Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks/10274dbf-8acd-4a80-b10a-0534a8b6d88d, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.902Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks/4ec7be67-7cf6-4176-a8a9-d91a2a6982dc, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.904Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks/a4221ba1-441e-45bd-af7a-e8387124fe30, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.906Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks/70311503-d341-4264-b984-8e9a9e47a335, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:43.908Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks/c18ad24a-96a2-4c51-a13d-373c3d560fa8, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:44.004Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:44.055Z] -- [url:] /users/f0978dd1-97fe-4a45-92aa-e0bd2ca8b32c, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:44.160Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks/4ec7be67-7cf6-4176-a8a9-d91a2a6982dc, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:44.163Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks/a4221ba1-441e-45bd-af7a-e8387124fe30, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:44.166Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks/10274dbf-8acd-4a80-b10a-0534a8b6d88d, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:44.170Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks/70311503-d341-4264-b984-8e9a9e47a335, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:44.173Z] -- [url:] /boards/a03228a9-36a1-4bbb-8f8b-408a8f437826/tasks/c18ad24a-96a2-4c51-a13d-373c3d560fa8, [params:] none, [body:] {}
+[error] [2020-04-21T19:13:44.234Z] -- [status:] 404, [message:] task not found
+[error] [2020-04-21T19:13:44.236Z] -- [status:] 404, [message:] task not found
+[error] [2020-04-21T19:13:44.238Z] -- [status:] 404, [message:] task not found
+[info] [2020-04-21T19:13:44.240Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[error] [2020-04-21T19:13:44.354Z] -- [status:] 404, [message:] task not found
+[error] [2020-04-21T19:13:44.356Z] -- [status:] 404, [message:] task not found
+[info] [2020-04-21T19:13:44.358Z] -- [url:] /boards/4394dbd0-da9e-4e65-aeda-774f0d4e8859, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:44.456Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:13:44.546Z] -- [url:] /boards/1358b8b0-abad-4778-90a3-ef43fcf84629/tasks, [params:] none, [body:] {"title":"task #1","order":1,"description":"lorem ipsum","userid":"54721874-83ad-4b9f-b30e-1487896c95d7","boardid":"1358b8b0-abad-4778-90a3-ef43fcf84629"}
+[info] [2020-04-21T19:13:44.549Z] -- [url:] /boards/1358b8b0-abad-4778-90a3-ef43fcf84629/tasks, [params:] none, [body:] {"title":"task #2","order":2,"description":"lorem ipsum","userid":"54721874-83ad-4b9f-b30e-1487896c95d7","boardid":"1358b8b0-abad-4778-90a3-ef43fcf84629"}
+[info] [2020-04-21T19:13:44.659Z] -- [url:] /users/54721874-83ad-4b9f-b30e-1487896c95d7, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:44.847Z] -- [url:] /boards/1358b8b0-abad-4778-90a3-ef43fcf84629/tasks/af554524-ee83-4337-9b91-02467aadb577, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:44.941Z] -- [url:] /boards/1358b8b0-abad-4778-90a3-ef43fcf84629/tasks/d54aa6ca-e842-46e0-be87-1e330f3dfc99, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:45.039Z] -- [url:] /boards/1358b8b0-abad-4778-90a3-ef43fcf84629/tasks/af554524-ee83-4337-9b91-02467aadb577, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:45.043Z] -- [url:] /boards/1358b8b0-abad-4778-90a3-ef43fcf84629/tasks/d54aa6ca-e842-46e0-be87-1e330f3dfc99, [params:] none, [body:] {}
+[info] [2020-04-21T19:13:45.158Z] -- [url:] /boards/1358b8b0-abad-4778-90a3-ef43fcf84629, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:51.910Z] -- [url:] /boards/12345/tasks, [params:] none, [body:] {}
+[error] [2020-04-21T19:23:51.912Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:51.921Z] -- [url:] /boards/12345/tasks/12345, [params:] none, [body:] {}
+[error] [2020-04-21T19:23:51.922Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:51.927Z] -- [url:] /boards/12345/tasks, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[error] [2020-04-21T19:23:51.929Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:51.933Z] -- [url:] /boards/12345/tasks/12345, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[error] [2020-04-21T19:23:51.933Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:51.937Z] -- [url:] /boards/12345/tasks/12345, [params:] none, [body:] {}
+[error] [2020-04-21T19:23:51.938Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:51.973Z] -- [url:] /login, [params:] none, [body:] {"login":"admin","password":"admin"}
+[info] [2020-04-21T19:23:51.977Z] -- [url:] /login, [params:] none, [body:] {"login":"admin","password":"admin"}
+[info] [2020-04-21T19:23:52.243Z] -- [url:] /login, [params:] none, [body:] {"login":"admin","password":"admin"}
+[info] [2020-04-21T19:23:52.762Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:23:52.764Z] -- [url:] /users, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:52.768Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:23:52.819Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-21T19:23:52.919Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629/tasks, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[info] [2020-04-21T19:23:52.921Z] -- [url:] /boards, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:52.968Z] -- [url:] /users/656cc761-f81b-45fb-80b0-c367c2aa522c, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:52.975Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629/tasks, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:52.980Z] -- [url:] /boards, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.015Z] -- [url:] /users/656cc761-f81b-45fb-80b0-c367c2aa522c, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.031Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629/tasks, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.033Z] -- [url:] /boards/8d2e1fe5-c928-475c-9bb3-4527fe32fcea, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.079Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629/tasks/34949a56-15fb-43d9-8d53-df9d7b38cfbf, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.082Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:23:53.135Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629/tasks, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[info] [2020-04-21T19:23:53.140Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-21T19:23:53.245Z] -- [url:] /boards/368f6400-e9c6-4d02-837c-d7ffb1ffe83b, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.250Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629/tasks/29191c4e-889e-4f3b-860d-13b1a07dde37, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.299Z] -- [url:] /users/25a70aef-59e1-483d-978a-c4467372ce81, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.300Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629/tasks, [params:] none, [body:] {"title":"autotest task","order":0,"description":"lorem ipsum","userid":null,"boardid":null,"columnid":null}
+[info] [2020-04-21T19:23:53.341Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:23:53.353Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629/tasks/20869a7d-7e8e-4da2-afa5-2f4c20607ea3, [params:] none, [body:] {"id":"20869a7d-7e8e-4da2-afa5-2f4c20607ea3","title":"autotest updated task","order":0,"description":"lorem ipsum","userid":null,"boardid":"60eda893-daeb-4d19-9f37-d2bbe5e40629","columnid":null}
+[info] [2020-04-21T19:23:53.399Z] -- [url:] /boards/cf1ddb55-60eb-40d9-939c-3139520d68c8, [params:] none, [body:] {"id":"cf1ddb55-60eb-40d9-939c-3139520d68c8","title":"autotest updated board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:23:53.408Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629/tasks/20869a7d-7e8e-4da2-afa5-2f4c20607ea3, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.411Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-21T19:23:53.522Z] -- [url:] /boards/cf1ddb55-60eb-40d9-939c-3139520d68c8, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.524Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629/tasks/34949a56-15fb-43d9-8d53-df9d7b38cfbf, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.568Z] -- [url:] /users/a7ef5e68-e5c2-45b8-a036-c7cb32155ff9, [params:] none, [body:] {"name":"autotest updated test_user","login":"test_user","password":"t35t_p@55w0rd","id":"a7ef5e68-e5c2-45b8-a036-c7cb32155ff9"}
+[info] [2020-04-21T19:23:53.572Z] -- [url:] /boards/cf1ddb55-60eb-40d9-939c-3139520d68c8, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.574Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629/tasks/34949a56-15fb-43d9-8d53-df9d7b38cfbf, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.622Z] -- [url:] /users/a7ef5e68-e5c2-45b8-a036-c7cb32155ff9, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.626Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629/tasks/34949a56-15fb-43d9-8d53-df9d7b38cfbf, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.666Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[error] [2020-04-21T19:23:53.671Z] -- [status:] 404, [message:] task not found
+[info] [2020-04-21T19:23:53.672Z] -- [url:] /users/a7ef5e68-e5c2-45b8-a036-c7cb32155ff9, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.673Z] -- [url:] /boards/60eda893-daeb-4d19-9f37-d2bbe5e40629, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.715Z] -- [url:] /boards/a377d6b7-dbb3-4c52-8ff8-4110a48ee908, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.787Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-21T19:23:53.897Z] -- [url:] /boards/a377d6b7-dbb3-4c52-8ff8-4110a48ee908, [params:] none, [body:] {}
+[error] [2020-04-21T19:23:53.944Z] -- [status:] 404, [message:] board not found
+[info] [2020-04-21T19:23:53.946Z] -- [url:] /users/11656ae6-c505-4270-82b4-5d8e37272c9d, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:53.948Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:23:54.000Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks, [params:] none, [body:] {"title":"task #1","order":1,"description":"lorem ipsum","boardid":"f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4","userid":null,"columnid":null}
+[info] [2020-04-21T19:23:54.002Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks, [params:] none, [body:] {"title":"task #2","order":2,"description":"lorem ipsum","boardid":"f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4","userid":null,"columnid":null}
+[info] [2020-04-21T19:23:54.004Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks, [params:] none, [body:] {"title":"task #3","order":3,"description":"lorem ipsum","boardid":"f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4","userid":null,"columnid":null}
+[info] [2020-04-21T19:23:54.006Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks, [params:] none, [body:] {"title":"task #4","order":4,"description":"lorem ipsum","boardid":"f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4","userid":null,"columnid":null}
+[info] [2020-04-21T19:23:54.009Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks, [params:] none, [body:] {"title":"task #5","order":5,"description":"lorem ipsum","boardid":"f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4","userid":null,"columnid":null}
+[info] [2020-04-21T19:23:54.046Z] -- [url:] /boards, [params:] none, [body:] {}
+[error] [2020-04-21T19:23:54.046Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:54.049Z] -- [url:] /boards/12345, [params:] none, [body:] {}
+[error] [2020-04-21T19:23:54.049Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:54.052Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[error] [2020-04-21T19:23:54.052Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:54.054Z] -- [url:] /boards/12345, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[error] [2020-04-21T19:23:54.055Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:54.058Z] -- [url:] /boards/12345, [params:] none, [body:] {}
+[error] [2020-04-21T19:23:54.058Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:54.106Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks/037901fb-8319-48ad-9c35-067dc7c2697f, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.107Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks/c9042c0a-862d-40ab-b1c5-506b69a53947, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.111Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks/4275c101-e7b1-499f-9918-faff6a2fd6e9, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.112Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks/91596c7f-4821-4e94-8308-8aa882855640, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.115Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks/bffb93f5-f358-431b-8291-0f69a7b6d865, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.117Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[info] [2020-04-21T19:23:54.265Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.267Z] -- [url:] /boards, [params:] none, [body:] {"title":"autotest board","columns":[{"title":"backlog","order":1},{"title":"sprint","order":2}]}
+[info] [2020-04-21T19:23:54.303Z] -- [url:] /users, [params:] none, [body:] {}
+[error] [2020-04-21T19:23:54.303Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:54.306Z] -- [url:] /users/123, [params:] none, [body:] {}
+[error] [2020-04-21T19:23:54.306Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:54.308Z] -- [url:] /users, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[error] [2020-04-21T19:23:54.309Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:54.311Z] -- [url:] /users/12345, [params:] none, [body:] {"name":"test_user","login":"test_user","password":"t35t_p@55w0rd"}
+[error] [2020-04-21T19:23:54.311Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:54.314Z] -- [url:] /users/12345, [params:] none, [body:] {}
+[error] [2020-04-21T19:23:54.314Z] -- [status:] 401, [message:] token not found
+[info] [2020-04-21T19:23:54.320Z] -- [url:] /boards/4ee9c976-166e-46b3-8dea-437fc123adee/tasks, [params:] none, [body:] {"title":"task #1","order":1,"description":"lorem ipsum","userid":"45e8970b-1241-4e08-9fdc-7ea19e1d0258","boardid":"4ee9c976-166e-46b3-8dea-437fc123adee"}
+[info] [2020-04-21T19:23:54.323Z] -- [url:] /boards/4ee9c976-166e-46b3-8dea-437fc123adee/tasks, [params:] none, [body:] {"title":"task #2","order":2,"description":"lorem ipsum","userid":"45e8970b-1241-4e08-9fdc-7ea19e1d0258","boardid":"4ee9c976-166e-46b3-8dea-437fc123adee"}
+[info] [2020-04-21T19:23:54.371Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks/037901fb-8319-48ad-9c35-067dc7c2697f, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.373Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks/c9042c0a-862d-40ab-b1c5-506b69a53947, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.374Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks/4275c101-e7b1-499f-9918-faff6a2fd6e9, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.375Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks/91596c7f-4821-4e94-8308-8aa882855640, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.376Z] -- [url:] /boards/f648f074-6fdf-4ead-93a2-b2a7ccdf3bb4/tasks/bffb93f5-f358-431b-8291-0f69a7b6d865, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.380Z] -- [url:] /users/45e8970b-1241-4e08-9fdc-7ea19e1d0258, [params:] none, [body:] {}
+[error] [2020-04-21T19:23:54.417Z] -- [status:] 404, [message:] task not found
+[error] [2020-04-21T19:23:54.419Z] -- [status:] 404, [message:] task not found
+[error] [2020-04-21T19:23:54.420Z] -- [status:] 404, [message:] task not found
+[error] [2020-04-21T19:23:54.422Z] -- [status:] 404, [message:] task not found
+[error] [2020-04-21T19:23:54.459Z] -- [status:] 404, [message:] task not found
+[info] [2020-04-21T19:23:54.463Z] -- [url:] /boards/1a2f256d-a87f-4adb-9468-1be3b582fd4c, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.542Z] -- [url:] /boards/4ee9c976-166e-46b3-8dea-437fc123adee/tasks/99801bf8-de70-4906-abd0-5373196edc55, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.592Z] -- [url:] /boards/4ee9c976-166e-46b3-8dea-437fc123adee/tasks/6ce58dca-9e1d-4b7d-9c00-c95ce12ed720, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.644Z] -- [url:] /boards/4ee9c976-166e-46b3-8dea-437fc123adee/tasks/99801bf8-de70-4906-abd0-5373196edc55, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.646Z] -- [url:] /boards/4ee9c976-166e-46b3-8dea-437fc123adee/tasks/6ce58dca-9e1d-4b7d-9c00-c95ce12ed720, [params:] none, [body:] {}
+[info] [2020-04-21T19:23:54.699Z] -- [url:] /boards/4ee9c976-166e-46b3-8dea-437fc123adee, [params:] none, [body:] {}

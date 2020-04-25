@@ -8,6 +8,11 @@ const getById = async id => {
   return User.findOne({ _id: id });
 };
 
+const getByLogin = async login => {
+  console.log(login);
+  return User.findOne({ login });
+};
+
 const create = async user => {
   const newUser = new User(user);
   return newUser.save();
@@ -21,4 +26,4 @@ const update = async (id, data) => {
   return User.findOneAndUpdate({ _id: id }, { $set: data });
 };
 
-module.exports = { getAll, create, getById, deleteById, update };
+module.exports = { getAll, create, getById, getByLogin, deleteById, update };
